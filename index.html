@@ -1,25 +1,79 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-<h1>I'm a Master student of Biostatistics program from Boston University.</h1>
-<h1>Course Scedule:</h1>
-<p><a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=FALL&Year=20&Col=sph&Dept=bs">BS Fall 2020</a><br>
-    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=SPRG&Year=21&Col=sph&Dept=bs">BS Spring 2021</a><br>
-    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=FALL&Year=21&Col=sph&Dept=bs">BS Fall 2021</a><br>
-    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=SPRG&Year=22&Col=sph&Dept=bs">BS Spring 2022</a><br>
-    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=FALL&Year=20&Col=cas&Dept=ma">MA Fall 2020</a><br>
-    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=SPRG&Year=21&Col=cas&Dept=ma">MA Spring 2021</a><br>
-    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=SUM1&Year=21&Col=cas&Dept=ma">MA Summer1 2021</a><br>
-    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=SUM2&Year=21&Col=cas&Dept=ma">MA Summer2 2021</a><br>
-    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=FALL&Year=21&Col=cas&Dept=ma">MA Fall 2021</a><br>
-    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=SPRG&Year=22&Col=cas&Dept=ma">MA Spring 2022</a><br>
-    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=SUM1&Year=22&Col=cas&Dept=ma">MA Summer1 2022</a><br>
-    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=SUM2&Year=22&Col=cas&Dept=ma">MA Summer2 2022</a><br>
-    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=FALL&Year=20&Col=grs&Dept=ma">GRS Fall 2020</a><br>
-    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=SPRG&Year=21&Col=grs&Dept=ma">GRS Spring 2021</a><br>
-    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=FALL&Year=21&Col=grs&Dept=ma">GRS Fall 2021</a><br>
-    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=SPRG&Year=22&Col=grs&Dept=ma">GRS Spring 2022</a></p>
-    <div class="inline-block_test">隙間をなくします</div><div class="inline-block_test">隙間をなくします</div><div class="inline-block_test">隙間をなくします</div>
+    <head>
+        <style>
+        .myDiv {
+          border: 2px outset red;
+          background-color: lightblue;
+          text-align: center;
+        }
+            {
+        box-sizing: border-box;
+    }
+    /* Set additional styling options for the columns */
+    .column {
+    float: left;
+    }
+
+    /* Set width length for the left, right and middle columns */
+    .left {
+    width: 33.333%;
+    }
+
+    .middle {
+    width: 33.333%;
+    }
+    
+    .right {
+    width: 33.333%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+        </style>
+        </head>
+        <body>
+        
+        <div class="myDiv">
+          <h2>Boston University Biostaitistcs schedules 2020 - 2022</h2>
+        </div>
+    <div class="row">
+        <div class="column left" style="background-color:#FFB695;">
+            <h2>SPH BS</h2>
+            <p><a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=FALL&Year=20&Col=sph&Dept=bs">Fall 2020</a><br>
+    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=SPRG&Year=21&Col=sph&Dept=bs">Spring 2021</a><br>
+    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=FALL&Year=21&Col=sph&Dept=bs">Fall 2021</a><br>
+    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=SPRG&Year=22&Col=sph&Dept=bs">Spring 2022</a><br></p>
+        </div>
+        <div class="column middle" style="background-color:#96D1CD;">
+            <h2>CAS MA</h2>
+            <p>    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=FALL&Year=20&Col=cas&Dept=ma">MA Fall 2020</a><br>
+    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=SPRG&Year=21&Col=cas&Dept=ma">Spring 2021</a><br>
+    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=SUM1&Year=21&Col=cas&Dept=ma">Summer1 2021</a><br>
+    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=SUM2&Year=21&Col=cas&Dept=ma">Summer2 2021</a><br>
+    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=FALL&Year=21&Col=cas&Dept=ma">Fall 2021</a><br>
+    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=SPRG&Year=22&Col=cas&Dept=ma">Spring 2022</a><br>
+    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=SUM1&Year=22&Col=cas&Dept=ma">Summer1 2022</a><br>
+    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=SUM2&Year=22&Col=cas&Dept=ma">Summer2 2022</a><br></p>
+        </div>
+        <div class="column right" style="background-color:#74C3E1;">
+            <h2>GRS MA</h2>
+            <p>    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=FALL&Year=20&Col=grs&Dept=ma">GRS Fall 2020</a><br>
+    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=SPRG&Year=21&Col=grs&Dept=ma">Spring 2021</a><br>
+    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=FALL&Year=21&Col=grs&Dept=ma">Fall 2021</a><br>
+    <a href="https://www.bu.edu/link/bin/uiscgi_dept_class_sched?Sem=SPRG&Year=22&Col=grs&Dept=ma">Spring 2022</a></p> 
+        </div>
+    </div>
+        </body>
+        
+
+
+
+
+
+
+
 </html>
